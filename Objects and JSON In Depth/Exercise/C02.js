@@ -4,5 +4,5 @@ function safeParse(text, fallback = null)
     catch { return fallback; }
 }
 
-console.log(safeParse('{"ok":1}')); // { ok : 1}
-console.log(safeParse("nonesense",{})) ; // {}
+console.log(safeParse('{"ok":1}'));   //{ ok : 1}
+console.log(safeParse("nonesense",{})) ;    //{}
