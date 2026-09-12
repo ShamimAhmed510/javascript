@@ -1,6 +1,7 @@
 // sytex error 
 
-const user = { name: Abir ; // sytex console.error(
+const user = { name: "Abir" }; // syntax error - missing quotes around "Abir"
+// console.error(
 //
 
 // ReferencError: name is not defined

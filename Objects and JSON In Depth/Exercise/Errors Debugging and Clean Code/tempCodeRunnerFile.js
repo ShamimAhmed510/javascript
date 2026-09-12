@@ -1,1 +1,1 @@
-console.table()
+console.log(parseData('{"name": "Alice"}'));\
