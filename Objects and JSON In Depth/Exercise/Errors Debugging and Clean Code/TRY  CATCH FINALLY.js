@@ -11,4 +11,4 @@ function parseUser(json){
         console.log("Execution completed.");
     }
 }
-parseUser("{bROKEN USER"); // Valid JSON
+parseUser("{BROKEN USER"); // Valid JSON
