@@ -6,3 +6,4 @@ const book = {
 };
 
 console.log(`Title : ${book.title} Author : ${book.author}`);
+
