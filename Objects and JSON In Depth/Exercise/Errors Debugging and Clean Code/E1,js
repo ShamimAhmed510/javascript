@@ -1,0 +1,14 @@
+// sytex error 
+
+const user = { name: Abir ; // sytex console.error(
+//
+
+// ReferencError: name is not defined
+
+console.log(name) // ReferenceError: name is not defined
+
+// TypeError: Cannot read property 'name' of undefined
+const num = 40 ;
+
+toUpperCase(num) // TypeError: Cannot read property 'toUpperCase' of undefined  
+
