@@ -1,10 +1,8 @@
+// Splitting Code into Files
 
-// 
-
-export const add = (x, y) => x+y ;
+export const add = (x, y) => x + y;
 export const pi = 3.14159;
 
-export default function greet(){
-    console.log("Hello, welcome to the module!");
+export default function greet() {
+  console.log("Hello, welcome to the module!");
 }
-
