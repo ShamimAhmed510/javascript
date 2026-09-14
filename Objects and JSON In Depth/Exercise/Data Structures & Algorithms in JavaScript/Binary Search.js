@@ -5,6 +5,8 @@ function BinarySearch(arr, target) {
     while (left <= right) {
         let mid = Math.floor((left + right) / 2);
 
+        console.log(mid,left,right);
+
         if (arr[mid] === target) {
             return mid;
         } else if (arr[mid] < target) {
@@ -14,9 +16,8 @@ function BinarySearch(arr, target) {
         }
     }
 
-    return -1;
+    //return -1;
 }
 
 const sorted = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91];
-console.log(BinarySearch(sorted, 23)); // 5
-console.log(BinarySearch(sorted, 4)); // -1
+console.log(BinarySearch(sorted, 91)); 
