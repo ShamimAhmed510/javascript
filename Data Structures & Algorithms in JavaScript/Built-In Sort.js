@@ -10,5 +10,4 @@ let user = [{name: "a", id: 3}, {name: "b", id: 1}, {name: "c", id: 2}];
 user.sort((a,b) => a.id - b.id); 
 console.log(user); // Output: [{name: "b", id: 1}, {name: "c", id: 2}, {name: "a", id: 3}]
 
-user.sort((a,b) => a.name.localeCompare(b.name));
-console.log(user); // Output: [{name: "
+user.sort((a,b) => a.name)
